@@ -6,5 +6,5 @@ CXX_DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__
 
 CXX_INCLUDES = -I/home/harold/code/ScreenExtender/include -isystem /usr/local/lib/wx/include/gtk3-unicode-3.0 -isystem /usr/local/include/wx-3.0
 
-CXX_FLAGS =  -pthread
+CXX_FLAGS =  -pthread -std=gnu++17
 
