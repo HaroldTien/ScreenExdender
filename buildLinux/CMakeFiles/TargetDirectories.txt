@@ -1,3 +1,0 @@
-/home/harold/code/ScreenExtender/build/CMakeFiles/ScreenExtender.dir
-/home/harold/code/ScreenExtender/build/CMakeFiles/edit_cache.dir
-/home/harold/code/ScreenExtender/build/CMakeFiles/rebuild_cache.dir

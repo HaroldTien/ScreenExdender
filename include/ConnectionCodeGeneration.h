@@ -3,7 +3,7 @@
 
 #include <string>
 
-std::string ConnectionCodeGeneration();
+std::string ConnectionCodeGeneration(int PORT);
 
 #endif // CONNECTION_CODE_GENERATION_H
 
