@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/haroldtien/code/ScreenExdender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacOS
+CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacos
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ScreenExtender.dir/depend.make
@@ -75,7 +75,7 @@ CMakeFiles/ScreenExtender.dir/codegen:
 CMakeFiles/ScreenExtender.dir/src/main.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
 CMakeFiles/ScreenExtender.dir/src/main.cpp.o: /Users/haroldtien/code/ScreenExdender/src/main.cpp
 CMakeFiles/ScreenExtender.dir/src/main.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ScreenExtender.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ScreenExtender.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/src/main.cpp.o -MF CMakeFiles/ScreenExtender.dir/src/main.cpp.o.d -o CMakeFiles/ScreenExtender.dir/src/main.cpp.o -c /Users/haroldtien/code/ScreenExdender/src/main.cpp
 
 CMakeFiles/ScreenExtender.dir/src/main.cpp.i: cmake_force
@@ -89,7 +89,7 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.s: cmake_force
 CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
 CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o: /Users/haroldtien/code/ScreenExdender/lib/ConnectionCodeGeneration.cpp
 CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o -MF CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o.d -o CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o -c /Users/haroldtien/code/ScreenExdender/lib/ConnectionCodeGeneration.cpp
 
 CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.i: cmake_force
@@ -103,7 +103,7 @@ CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.s: cmake_force
 CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o: CMakeFiles/ScreenExtender.dir/flags.make
 CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o: /Users/haroldtien/code/ScreenExdender/src/WallpaperCapture.mm
 CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building OBJCXX object CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building OBJCXX object CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(OBJCXX_DEFINES) $(OBJCXX_INCLUDES) -x objective-c++ $(OBJCXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o -MF CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o.d -o CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o -c /Users/haroldtien/code/ScreenExdender/src/WallpaperCapture.mm
 
 CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.s: cmake_force
 CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
 CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o: /Users/haroldtien/code/ScreenExdender/lib/Communication.cpp
 CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o -MF CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o.d -o CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o -c /Users/haroldtien/code/ScreenExdender/lib/Communication.cpp
 
 CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.i: cmake_force
@@ -128,12 +128,57 @@ CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haroldtien/code/ScreenExdender/lib/Communication.cpp -o CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.s
 
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o: /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/WebSocketServer.cpp
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o -MF CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o.d -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o -c /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/WebSocketServer.cpp
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/WebSocketServer.cpp > CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.i
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/WebSocketServer.cpp -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.s
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o: /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/SHA1.cpp
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o -MF CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o.d -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o -c /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/SHA1.cpp
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/SHA1.cpp > CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.i
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/SHA1.cpp -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.s
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o: CMakeFiles/ScreenExtender.dir/flags.make
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o: /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/Base64.cpp
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o: CMakeFiles/ScreenExtender.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o -MF CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o.d -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o -c /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/Base64.cpp
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/Base64.cpp > CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.i
+
+CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/Base64.cpp -o CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.s
+
 # Object files for target ScreenExtender
 ScreenExtender_OBJECTS = \
 "CMakeFiles/ScreenExtender.dir/src/main.cpp.o" \
 "CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o" \
 "CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o" \
-"CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o"
+"CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o" \
+"CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o" \
+"CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o" \
+"CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o"
 
 # External object files for target ScreenExtender
 ScreenExtender_EXTERNAL_OBJECTS =
@@ -142,14 +187,12 @@ ScreenExtender_EXTERNAL_OBJECTS =
 /Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o
 /Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o
 /Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o
+/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o
+/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o
+/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o
 /Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/build.make
-/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: /Users/haroldtien/code/ScreenExdender/lib/uWebSockets/uSockets/uSockets.a
-/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: /usr/local/lib/libssl.dylib
-/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: /usr/local/lib/libcrypto.dylib
-/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/lib/libz.tbd
-/Users/haroldtien/code/ScreenExdender/output/ScreenExtender: /Users/haroldtien/code/ScreenExdender/lib/uWebSockets/uSockets/uSockets.a
 /Users/haroldtien/code/ScreenExdender/output/ScreenExtender: CMakeFiles/ScreenExtender.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /Users/haroldtien/code/ScreenExdender/output/ScreenExtender"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /Users/haroldtien/code/ScreenExdender/output/ScreenExtender"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScreenExtender.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +204,6 @@ CMakeFiles/ScreenExtender.dir/clean:
 .PHONY : CMakeFiles/ScreenExtender.dir/clean
 
 CMakeFiles/ScreenExtender.dir/depend:
-	cd /Users/haroldtien/code/ScreenExdender/buildMacOS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/haroldtien/code/ScreenExdender /Users/haroldtien/code/ScreenExdender /Users/haroldtien/code/ScreenExdender/buildMacOS /Users/haroldtien/code/ScreenExdender/buildMacOS /Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles/ScreenExtender.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/haroldtien/code/ScreenExdender/buildMacos && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/haroldtien/code/ScreenExdender /Users/haroldtien/code/ScreenExdender /Users/haroldtien/code/ScreenExdender/buildMacos /Users/haroldtien/code/ScreenExdender/buildMacos /Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles/ScreenExtender.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ScreenExtender.dir/depend
 

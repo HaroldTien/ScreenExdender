@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/haroldtien/code/ScreenExdender")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/haroldtien/code/ScreenExdender/buildMacOS")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/haroldtien/code/ScreenExdender/buildMacos")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

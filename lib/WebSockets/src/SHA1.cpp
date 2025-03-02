@@ -1,16 +1,12 @@
+#include "../include/SHA1.h"
 
-#include <vector>
-#include <string>
-#include <cstdint>
+namespace WebSocket {
 
-inline uint32_t rotate_left(uint32_t  value, unsigned int bits) {
-    return (value << bits) | (value >> (32-bits));
+inline uint32_t rotate_left(uint32_t value, unsigned int bits) {
+    return (value << bits) | (value >> (32 - bits));
 }
 
-
 std::vector<uint8_t> sha1(const std::string &data) {
-
-
     // Initialize the hash constants.
     uint32_t h0 = 0x67452301;
     uint32_t h1 = 0xEFCDAB89;
@@ -108,4 +104,6 @@ std::vector<uint8_t> sha1(const std::string &data) {
     
     return digest;     // Return the complete SHA-1 hash (20 bytes).
 }
+
+} // namespace WebSocket
 

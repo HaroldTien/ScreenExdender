@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/haroldtien/code/ScreenExdender/lib/Communication.cpp" "CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/lib/Communication.cpp.o.d"
   "/Users/haroldtien/code/ScreenExdender/lib/ConnectionCodeGeneration.cpp" "CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.o.d"
+  "/Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/Base64.cpp" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o.d"
+  "/Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/SHA1.cpp" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o.d"
+  "/Users/haroldtien/code/ScreenExdender/lib/WebSockets/src/WebSocketServer.cpp" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o.d"
   "/Users/haroldtien/code/ScreenExdender/src/main.cpp" "CMakeFiles/ScreenExtender.dir/src/main.cpp.o" "gcc" "CMakeFiles/ScreenExtender.dir/src/main.cpp.o.d"
   "/Users/haroldtien/code/ScreenExdender/src/WallpaperCapture.mm" "CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o" "gcc" "CMakeFiles/ScreenExtender.dir/src/WallpaperCapture.mm.o.d"
   )

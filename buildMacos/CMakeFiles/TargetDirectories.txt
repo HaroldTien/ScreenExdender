@@ -1,3 +1,3 @@
-/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles/ScreenExtender.dir
-/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles/edit_cache.dir
-/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles/rebuild_cache.dir
+/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles/ScreenExtender.dir
+/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles/edit_cache.dir
+/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles/rebuild_cache.dir

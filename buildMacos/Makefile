@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/haroldtien/code/ScreenExdender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacOS
+CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacos
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/local/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles /Users/haroldtien/code/ScreenExdender/buildMacOS//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles /Users/haroldtien/code/ScreenExdender/buildMacos//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,78 @@ lib/ConnectionCodeGeneration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/ConnectionCodeGeneration.cpp.s
 .PHONY : lib/ConnectionCodeGeneration.cpp.s
 
+lib/WebSockets/src/Base64.o: lib/WebSockets/src/Base64.cpp.o
+.PHONY : lib/WebSockets/src/Base64.o
+
+# target to build an object file
+lib/WebSockets/src/Base64.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.o
+.PHONY : lib/WebSockets/src/Base64.cpp.o
+
+lib/WebSockets/src/Base64.i: lib/WebSockets/src/Base64.cpp.i
+.PHONY : lib/WebSockets/src/Base64.i
+
+# target to preprocess a source file
+lib/WebSockets/src/Base64.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.i
+.PHONY : lib/WebSockets/src/Base64.cpp.i
+
+lib/WebSockets/src/Base64.s: lib/WebSockets/src/Base64.cpp.s
+.PHONY : lib/WebSockets/src/Base64.s
+
+# target to generate assembly for a file
+lib/WebSockets/src/Base64.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/Base64.cpp.s
+.PHONY : lib/WebSockets/src/Base64.cpp.s
+
+lib/WebSockets/src/SHA1.o: lib/WebSockets/src/SHA1.cpp.o
+.PHONY : lib/WebSockets/src/SHA1.o
+
+# target to build an object file
+lib/WebSockets/src/SHA1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.o
+.PHONY : lib/WebSockets/src/SHA1.cpp.o
+
+lib/WebSockets/src/SHA1.i: lib/WebSockets/src/SHA1.cpp.i
+.PHONY : lib/WebSockets/src/SHA1.i
+
+# target to preprocess a source file
+lib/WebSockets/src/SHA1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.i
+.PHONY : lib/WebSockets/src/SHA1.cpp.i
+
+lib/WebSockets/src/SHA1.s: lib/WebSockets/src/SHA1.cpp.s
+.PHONY : lib/WebSockets/src/SHA1.s
+
+# target to generate assembly for a file
+lib/WebSockets/src/SHA1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/SHA1.cpp.s
+.PHONY : lib/WebSockets/src/SHA1.cpp.s
+
+lib/WebSockets/src/WebSocketServer.o: lib/WebSockets/src/WebSocketServer.cpp.o
+.PHONY : lib/WebSockets/src/WebSocketServer.o
+
+# target to build an object file
+lib/WebSockets/src/WebSocketServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.o
+.PHONY : lib/WebSockets/src/WebSocketServer.cpp.o
+
+lib/WebSockets/src/WebSocketServer.i: lib/WebSockets/src/WebSocketServer.cpp.i
+.PHONY : lib/WebSockets/src/WebSocketServer.i
+
+# target to preprocess a source file
+lib/WebSockets/src/WebSocketServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.i
+.PHONY : lib/WebSockets/src/WebSocketServer.cpp.i
+
+lib/WebSockets/src/WebSocketServer.s: lib/WebSockets/src/WebSocketServer.cpp.s
+.PHONY : lib/WebSockets/src/WebSocketServer.s
+
+# target to generate assembly for a file
+lib/WebSockets/src/WebSocketServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/lib/WebSockets/src/WebSocketServer.cpp.s
+.PHONY : lib/WebSockets/src/WebSocketServer.cpp.s
+
 src/WallpaperCapture.o: src/WallpaperCapture.mm.o
 .PHONY : src/WallpaperCapture.o
 
@@ -224,6 +296,15 @@ help:
 	@echo "... lib/ConnectionCodeGeneration.o"
 	@echo "... lib/ConnectionCodeGeneration.i"
 	@echo "... lib/ConnectionCodeGeneration.s"
+	@echo "... lib/WebSockets/src/Base64.o"
+	@echo "... lib/WebSockets/src/Base64.i"
+	@echo "... lib/WebSockets/src/Base64.s"
+	@echo "... lib/WebSockets/src/SHA1.o"
+	@echo "... lib/WebSockets/src/SHA1.i"
+	@echo "... lib/WebSockets/src/SHA1.s"
+	@echo "... lib/WebSockets/src/WebSocketServer.o"
+	@echo "... lib/WebSockets/src/WebSocketServer.i"
+	@echo "... lib/WebSockets/src/WebSocketServer.s"
 	@echo "... src/WallpaperCapture.o"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

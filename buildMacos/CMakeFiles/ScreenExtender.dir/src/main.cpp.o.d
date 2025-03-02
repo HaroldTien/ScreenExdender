@@ -28,15 +28,15 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stddef.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_header_macro.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_size_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_wchar_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_null.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_nullptr_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_max_align_t.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_offsetof.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_header_macro.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_ptrdiff_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_size_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_wchar_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_null.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_nullptr_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_offsetof.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__concepts/common_reference_with.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__concepts/convertible_to.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_convertible.h \
@@ -113,7 +113,7 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/_types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_pid_t.h \
@@ -121,13 +121,13 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/appleapiopts.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/signal.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/signal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/signal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_mcontext.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/_mcontext.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_mcontext.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/machine/_structs.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/i386/_structs.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/mach/arm/_structs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/types.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/types.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int16_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_int32_t.h \
@@ -146,7 +146,7 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdint.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint8_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uint16_t.h \
@@ -156,13 +156,13 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_uintmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_timeval.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_endian.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/_endian.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/__endian.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/libkern/arm/_OSByteOrder.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/alloca.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_rune_t.h \
@@ -453,16 +453,16 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/___wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_types/_wctype_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stddef_rsize_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stddef_rsize_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_wchar.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_header_macro.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg___va_copy.h \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_header_macro.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg___gnuc_va_list.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_va_list.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_va_arg.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg___va_copy.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/__stdarg_va_copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_stdio.h \
@@ -497,11 +497,11 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/is_allocator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/climits \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/limits.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/_limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/limits.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_limits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/stdexcept \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/string_view \
@@ -957,91 +957,94 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/unistd.h \
   /Users/haroldtien/code/ScreenExdender/src/../include/ConnectionCodeGeneration.h \
-  /usr/local/include/wx-3.2/wx/wx.h /usr/local/include/wx-3.2/wx/defs.h \
-  /usr/local/include/wx-3.2/wx/platform.h \
-  /usr/local/include/wx-3.2/wx/compiler.h \
-  /usr/local/lib/wx/include/osx_cocoa-unicode-3.2/wx/setup.h \
+  /opt/homebrew/include/wx-3.2/wx/wx.h \
+  /opt/homebrew/include/wx-3.2/wx/defs.h \
+  /opt/homebrew/include/wx-3.2/wx/platform.h \
+  /opt/homebrew/include/wx-3.2/wx/compiler.h \
+  /opt/homebrew/lib/wx/include/osx_cocoa-unicode-3.2/wx/setup.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/TargetConditionals.h \
-  /usr/local/include/wx-3.2/wx/chkconf.h \
-  /usr/local/include/wx-3.2/wx/osx/chkconf.h \
-  /usr/local/include/wx-3.2/wx/osx/cocoa/chkconf.h \
-  /usr/local/include/wx-3.2/wx/unix/chkconf.h \
-  /usr/local/include/wx-3.2/wx/version.h \
-  /usr/local/include/wx-3.2/wx/cpp.h \
-  /usr/local/include/wx-3.2/wx/dlimpexp.h \
-  /usr/local/include/wx-3.2/wx/types.h \
-  /usr/local/include/wx-3.2/wx/debug.h \
+  /opt/homebrew/include/wx-3.2/wx/chkconf.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/chkconf.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/cocoa/chkconf.h \
+  /opt/homebrew/include/wx-3.2/wx/unix/chkconf.h \
+  /opt/homebrew/include/wx-3.2/wx/version.h \
+  /opt/homebrew/include/wx-3.2/wx/cpp.h \
+  /opt/homebrew/include/wx-3.2/wx/dlimpexp.h \
+  /opt/homebrew/include/wx-3.2/wx/types.h \
+  /opt/homebrew/include/wx-3.2/wx/debug.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_assert.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/_static_assert.h \
-  /usr/local/include/wx-3.2/wx/chartype.h \
-  /usr/local/include/wx-3.2/wx/features.h \
-  /usr/local/include/wx-3.2/wx/object.h \
-  /usr/local/include/wx-3.2/wx/memory.h \
-  /usr/local/include/wx-3.2/wx/string.h \
-  /usr/local/include/wx-3.2/wx/wxcrtbase.h \
-  /usr/local/include/wx-3.2/wx/strvararg.h \
-  /usr/local/include/wx-3.2/wx/strconv.h \
-  /usr/local/include/wx-3.2/wx/buffer.h \
-  /usr/local/include/wx-3.2/wx/fontenc.h \
-  /usr/local/include/wx-3.2/wx/unichar.h \
-  /usr/local/include/wx-3.2/wx/stringimpl.h \
-  /usr/local/include/wx-3.2/wx/beforestd.h \
-  /usr/local/include/wx-3.2/wx/afterstd.h \
-  /usr/local/include/wx-3.2/wx/stringops.h \
-  /usr/local/include/wx-3.2/wx/iosfwrap.h \
-  /usr/local/include/wx-3.2/wx/msgout.h \
-  /usr/local/include/wx-3.2/wx/xti.h /usr/local/include/wx-3.2/wx/rtti.h \
-  /usr/local/include/wx-3.2/wx/flags.h \
-  /usr/local/include/wx-3.2/wx/xti2.h \
-  /usr/local/include/wx-3.2/wx/dynarray.h \
-  /usr/local/include/wx-3.2/wx/vector.h \
-  /usr/local/include/wx-3.2/wx/scopeguard.h \
-  /usr/local/include/wx-3.2/wx/except.h \
-  /usr/local/include/wx-3.2/wx/meta/movable.h \
-  /usr/local/include/wx-3.2/wx/meta/pod.h \
-  /usr/local/include/wx-3.2/wx/meta/if.h \
-  /usr/local/include/wx-3.2/wx/list.h \
-  /usr/local/include/wx-3.2/wx/hash.h \
-  /usr/local/include/wx-3.2/wx/hashmap.h \
-  /usr/local/include/wx-3.2/wx/wxcrt.h \
-  /usr/local/include/wx-3.2/wx/arrstr.h \
-  /usr/local/include/wx-3.2/wx/intl.h \
-  /usr/local/include/wx-3.2/wx/localedefs.h \
-  /usr/local/include/wx-3.2/wx/translation.h \
-  /usr/local/include/wx-3.2/wx/language.h \
-  /usr/local/include/wx-3.2/wx/scopedptr.h \
-  /usr/local/include/wx-3.2/wx/checkeddelete.h \
-  /usr/local/include/wx-3.2/wx/log.h /usr/local/include/wx-3.2/wx/time.h \
-  /usr/local/include/wx-3.2/wx/longlong.h \
-  /usr/local/include/wx-3.2/wx/thread.h \
-  /usr/local/include/wx-3.2/wx/generic/logg.h \
-  /usr/local/include/wx-3.2/wx/event.h \
-  /usr/local/include/wx-3.2/wx/clntdata.h \
-  /usr/local/include/wx-3.2/wx/math.h \
-  /usr/local/include/wx-3.2/wx/gdicmn.h \
-  /usr/local/include/wx-3.2/wx/cursor.h \
-  /usr/local/include/wx-3.2/wx/gdiobj.h \
-  /usr/local/include/wx-3.2/wx/osx/cursor.h \
-  /usr/local/include/wx-3.2/wx/bitmap.h \
-  /usr/local/include/wx-3.2/wx/colour.h \
-  /usr/local/include/wx-3.2/wx/variant.h \
-  /usr/local/include/wx-3.2/wx/datetime.h \
-  /usr/local/include/wx-3.2/wx/anystr.h \
-  /usr/local/include/wx-3.2/wx/any.h \
-  /usr/local/include/wx-3.2/wx/typeinfo.h \
-  /usr/local/include/wx-3.2/wx/osx/colour.h \
-  /usr/local/include/wx-3.2/wx/osx/core/colour.h \
-  /usr/local/include/wx-3.2/wx/osx/core/cfref.h \
+  /opt/homebrew/include/wx-3.2/wx/chartype.h \
+  /opt/homebrew/include/wx-3.2/wx/features.h \
+  /opt/homebrew/include/wx-3.2/wx/object.h \
+  /opt/homebrew/include/wx-3.2/wx/memory.h \
+  /opt/homebrew/include/wx-3.2/wx/string.h \
+  /opt/homebrew/include/wx-3.2/wx/wxcrtbase.h \
+  /opt/homebrew/include/wx-3.2/wx/strvararg.h \
+  /opt/homebrew/include/wx-3.2/wx/strconv.h \
+  /opt/homebrew/include/wx-3.2/wx/buffer.h \
+  /opt/homebrew/include/wx-3.2/wx/fontenc.h \
+  /opt/homebrew/include/wx-3.2/wx/unichar.h \
+  /opt/homebrew/include/wx-3.2/wx/stringimpl.h \
+  /opt/homebrew/include/wx-3.2/wx/beforestd.h \
+  /opt/homebrew/include/wx-3.2/wx/afterstd.h \
+  /opt/homebrew/include/wx-3.2/wx/stringops.h \
+  /opt/homebrew/include/wx-3.2/wx/iosfwrap.h \
+  /opt/homebrew/include/wx-3.2/wx/msgout.h \
+  /opt/homebrew/include/wx-3.2/wx/xti.h \
+  /opt/homebrew/include/wx-3.2/wx/rtti.h \
+  /opt/homebrew/include/wx-3.2/wx/flags.h \
+  /opt/homebrew/include/wx-3.2/wx/xti2.h \
+  /opt/homebrew/include/wx-3.2/wx/dynarray.h \
+  /opt/homebrew/include/wx-3.2/wx/vector.h \
+  /opt/homebrew/include/wx-3.2/wx/scopeguard.h \
+  /opt/homebrew/include/wx-3.2/wx/except.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/movable.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/pod.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/if.h \
+  /opt/homebrew/include/wx-3.2/wx/list.h \
+  /opt/homebrew/include/wx-3.2/wx/hash.h \
+  /opt/homebrew/include/wx-3.2/wx/hashmap.h \
+  /opt/homebrew/include/wx-3.2/wx/wxcrt.h \
+  /opt/homebrew/include/wx-3.2/wx/arrstr.h \
+  /opt/homebrew/include/wx-3.2/wx/intl.h \
+  /opt/homebrew/include/wx-3.2/wx/localedefs.h \
+  /opt/homebrew/include/wx-3.2/wx/translation.h \
+  /opt/homebrew/include/wx-3.2/wx/language.h \
+  /opt/homebrew/include/wx-3.2/wx/scopedptr.h \
+  /opt/homebrew/include/wx-3.2/wx/checkeddelete.h \
+  /opt/homebrew/include/wx-3.2/wx/log.h \
+  /opt/homebrew/include/wx-3.2/wx/time.h \
+  /opt/homebrew/include/wx-3.2/wx/longlong.h \
+  /opt/homebrew/include/wx-3.2/wx/thread.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/logg.h \
+  /opt/homebrew/include/wx-3.2/wx/event.h \
+  /opt/homebrew/include/wx-3.2/wx/clntdata.h \
+  /opt/homebrew/include/wx-3.2/wx/math.h \
+  /opt/homebrew/include/wx-3.2/wx/gdicmn.h \
+  /opt/homebrew/include/wx-3.2/wx/cursor.h \
+  /opt/homebrew/include/wx-3.2/wx/gdiobj.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/cursor.h \
+  /opt/homebrew/include/wx-3.2/wx/bitmap.h \
+  /opt/homebrew/include/wx-3.2/wx/colour.h \
+  /opt/homebrew/include/wx-3.2/wx/variant.h \
+  /opt/homebrew/include/wx-3.2/wx/datetime.h \
+  /opt/homebrew/include/wx-3.2/wx/anystr.h \
+  /opt/homebrew/include/wx-3.2/wx/any.h \
+  /opt/homebrew/include/wx-3.2/wx/typeinfo.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/colour.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/core/colour.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/core/cfref.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_posix_vdisable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_select.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_uuid_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/gethostuuid.h \
-  /usr/local/include/wx-3.2/wx/image.h \
-  /usr/local/include/wx-3.2/wx/stream.h \
-  /usr/local/include/wx-3.2/wx/filefn.h \
+  /opt/homebrew/include/wx-3.2/wx/image.h \
+  /opt/homebrew/include/wx-3.2/wx/stream.h \
+  /opt/homebrew/include/wx-3.2/wx/filefn.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/stat.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_filesec_t.h \
@@ -1051,167 +1054,168 @@ CMakeFiles/ScreenExtender.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/fcntl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_sync.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_o_dsync.h \
-  /usr/local/include/wx-3.2/wx/imagbmp.h \
-  /usr/local/include/wx-3.2/wx/imagpng.h \
-  /usr/local/include/wx-3.2/wx/versioninfo.h \
-  /usr/local/include/wx-3.2/wx/imaggif.h \
-  /usr/local/include/wx-3.2/wx/imagpcx.h \
-  /usr/local/include/wx-3.2/wx/imagjpeg.h \
-  /usr/local/include/wx-3.2/wx/imagtga.h \
-  /usr/local/include/wx-3.2/wx/imagtiff.h \
-  /usr/local/include/wx-3.2/wx/imagpnm.h \
-  /usr/local/include/wx-3.2/wx/imagxpm.h \
-  /usr/local/include/wx-3.2/wx/imagiff.h \
-  /usr/local/include/wx-3.2/wx/osx/bitmap.h \
-  /usr/local/include/wx-3.2/wx/palette.h \
-  /usr/local/include/wx-3.2/wx/osx/palette.h \
-  /usr/local/include/wx-3.2/wx/utils.h \
-  /usr/local/include/wx-3.2/wx/meta/implicitconversion.h \
-  /usr/local/include/wx-3.2/wx/mousestate.h \
-  /usr/local/include/wx-3.2/wx/kbdstate.h \
-  /usr/local/include/wx-3.2/wx/platinfo.h \
-  /usr/local/include/wx-3.2/wx/tracker.h \
-  /usr/local/include/wx-3.2/wx/meta/convertible.h \
-  /usr/local/include/wx-3.2/wx/meta/removeref.h \
-  /usr/local/include/wx-3.2/wx/app.h \
-  /usr/local/include/wx-3.2/wx/eventfilter.h \
-  /usr/local/include/wx-3.2/wx/build.h \
-  /usr/local/include/wx-3.2/wx/cmdargs.h \
-  /usr/local/include/wx-3.2/wx/init.h \
-  /usr/local/include/wx-3.2/wx/unix/app.h \
+  /opt/homebrew/include/wx-3.2/wx/imagbmp.h \
+  /opt/homebrew/include/wx-3.2/wx/imagpng.h \
+  /opt/homebrew/include/wx-3.2/wx/versioninfo.h \
+  /opt/homebrew/include/wx-3.2/wx/imaggif.h \
+  /opt/homebrew/include/wx-3.2/wx/imagpcx.h \
+  /opt/homebrew/include/wx-3.2/wx/imagjpeg.h \
+  /opt/homebrew/include/wx-3.2/wx/imagtga.h \
+  /opt/homebrew/include/wx-3.2/wx/imagtiff.h \
+  /opt/homebrew/include/wx-3.2/wx/imagpnm.h \
+  /opt/homebrew/include/wx-3.2/wx/imagxpm.h \
+  /opt/homebrew/include/wx-3.2/wx/imagiff.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/bitmap.h \
+  /opt/homebrew/include/wx-3.2/wx/palette.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/palette.h \
+  /opt/homebrew/include/wx-3.2/wx/utils.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/implicitconversion.h \
+  /opt/homebrew/include/wx-3.2/wx/mousestate.h \
+  /opt/homebrew/include/wx-3.2/wx/kbdstate.h \
+  /opt/homebrew/include/wx-3.2/wx/platinfo.h \
+  /opt/homebrew/include/wx-3.2/wx/tracker.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/convertible.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/removeref.h \
+  /opt/homebrew/include/wx-3.2/wx/app.h \
+  /opt/homebrew/include/wx-3.2/wx/eventfilter.h \
+  /opt/homebrew/include/wx-3.2/wx/build.h \
+  /opt/homebrew/include/wx-3.2/wx/cmdargs.h \
+  /opt/homebrew/include/wx-3.2/wx/init.h \
+  /opt/homebrew/include/wx-3.2/wx/unix/app.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/signal.h \
-  /usr/local/include/wx-3.2/wx/osx/app.h \
-  /usr/local/include/wx-3.2/wx/stopwatch.h \
-  /usr/local/include/wx-3.2/wx/timer.h \
-  /usr/local/include/wx-3.2/wx/module.h \
-  /usr/local/include/wx-3.2/wx/wxcrtvararg.h \
-  /usr/local/include/wx-3.2/wx/window.h \
-  /usr/local/include/wx-3.2/wx/font.h \
-  /usr/local/include/wx-3.2/wx/osx/font.h \
-  /usr/local/include/wx-3.2/wx/region.h \
-  /usr/local/include/wx-3.2/wx/osx/region.h \
-  /usr/local/include/wx-3.2/wx/osx/carbon/region.h \
-  /usr/local/include/wx-3.2/wx/validate.h \
-  /usr/local/include/wx-3.2/wx/windowid.h \
-  /usr/local/include/wx-3.2/wx/accel.h \
-  /usr/local/include/wx-3.2/wx/osx/accel.h \
-  /usr/local/include/wx-3.2/wx/osx/window.h \
-  /usr/local/include/wx-3.2/wx/brush.h \
-  /usr/local/include/wx-3.2/wx/osx/brush.h \
-  /usr/local/include/wx-3.2/wx/dc.h /usr/local/include/wx-3.2/wx/pen.h \
-  /usr/local/include/wx-3.2/wx/peninfobase.h \
-  /usr/local/include/wx-3.2/wx/osx/pen.h \
-  /usr/local/include/wx-3.2/wx/affinematrix2d.h \
-  /usr/local/include/wx-3.2/wx/affinematrix2dbase.h \
-  /usr/local/include/wx-3.2/wx/geometry.h \
-  /usr/local/include/wx-3.2/wx/containr.h \
-  /usr/local/include/wx-3.2/wx/panel.h \
-  /usr/local/include/wx-3.2/wx/generic/panelg.h \
-  /usr/local/include/wx-3.2/wx/toplevel.h \
-  /usr/local/include/wx-3.2/wx/nonownedwnd.h \
-  /usr/local/include/wx-3.2/wx/osx/nonownedwnd.h \
-  /usr/local/include/wx-3.2/wx/graphics.h \
-  /usr/local/include/wx-3.2/wx/iconbndl.h \
-  /usr/local/include/wx-3.2/wx/icon.h \
-  /usr/local/include/wx-3.2/wx/iconloc.h \
-  /usr/local/include/wx-3.2/wx/generic/icon.h \
-  /usr/local/include/wx-3.2/wx/weakref.h \
-  /usr/local/include/wx-3.2/wx/meta/int2type.h \
-  /usr/local/include/wx-3.2/wx/osx/toplevel.h \
-  /usr/local/include/wx-3.2/wx/frame.h \
-  /usr/local/include/wx-3.2/wx/statusbr.h \
-  /usr/local/include/wx-3.2/wx/control.h \
-  /usr/local/include/wx-3.2/wx/osx/control.h \
-  /usr/local/include/wx-3.2/wx/generic/statusbr.h \
-  /usr/local/include/wx-3.2/wx/osx/statusbr.h \
-  /usr/local/include/wx-3.2/wx/osx/frame.h \
-  /usr/local/include/wx-3.2/wx/toolbar.h \
-  /usr/local/include/wx-3.2/wx/tbarbase.h \
-  /usr/local/include/wx-3.2/wx/bmpbndl.h \
-  /usr/local/include/wx-3.2/wx/osx/toolbar.h \
-  /usr/local/include/wx-3.2/wx/dcclient.h \
-  /usr/local/include/wx-3.2/wx/dcmemory.h \
-  /usr/local/include/wx-3.2/wx/dcprint.h \
-  /usr/local/include/wx-3.2/wx/dcscreen.h \
-  /usr/local/include/wx-3.2/wx/button.h \
-  /usr/local/include/wx-3.2/wx/anybutton.h \
-  /usr/local/include/wx-3.2/wx/osx/anybutton.h \
-  /usr/local/include/wx-3.2/wx/osx/button.h \
-  /usr/local/include/wx-3.2/wx/menuitem.h \
-  /usr/local/include/wx-3.2/wx/osx/menuitem.h \
-  /usr/local/include/wx-3.2/wx/menu.h \
-  /usr/local/include/wx-3.2/wx/osx/menu.h \
-  /usr/local/include/wx-3.2/wx/dialog.h \
-  /usr/local/include/wx-3.2/wx/sharedptr.h \
-  /usr/local/include/wx-3.2/wx/atomic.h \
-  /usr/local/include/wx-3.2/wx/osx/dialog.h \
-  /usr/local/include/wx-3.2/wx/settings.h \
-  /usr/local/include/wx-3.2/wx/msgdlg.h \
-  /usr/local/include/wx-3.2/wx/stockitem.h \
-  /usr/local/include/wx-3.2/wx/generic/msgdlgg.h \
-  /usr/local/include/wx-3.2/wx/osx/msgdlg.h \
-  /usr/local/include/wx-3.2/wx/dataobj.h \
-  /usr/local/include/wx-3.2/wx/osx/dataform.h \
-  /usr/local/include/wx-3.2/wx/osx/core/cfstring.h \
-  /usr/local/include/wx-3.2/wx/osx/dataobj.h \
-  /usr/local/include/wx-3.2/wx/osx/dataobj2.h \
-  /usr/local/include/wx-3.2/wx/ctrlsub.h \
-  /usr/local/include/wx-3.2/wx/bmpbuttn.h \
-  /usr/local/include/wx-3.2/wx/osx/bmpbuttn.h \
-  /usr/local/include/wx-3.2/wx/checkbox.h \
-  /usr/local/include/wx-3.2/wx/osx/checkbox.h \
-  /usr/local/include/wx-3.2/wx/checklst.h \
-  /usr/local/include/wx-3.2/wx/listbox.h \
-  /usr/local/include/wx-3.2/wx/osx/listbox.h \
-  /usr/local/include/wx-3.2/wx/osx/checklst.h \
-  /usr/local/include/wx-3.2/wx/choice.h \
-  /usr/local/include/wx-3.2/wx/osx/choice.h \
-  /usr/local/include/wx-3.2/wx/scrolbar.h \
-  /usr/local/include/wx-3.2/wx/osx/scrolbar.h \
-  /usr/local/include/wx-3.2/wx/stattext.h \
-  /usr/local/include/wx-3.2/wx/osx/stattext.h \
-  /usr/local/include/wx-3.2/wx/statbmp.h \
-  /usr/local/include/wx-3.2/wx/osx/statbmp.h \
-  /usr/local/include/wx-3.2/wx/statbox.h \
-  /usr/local/include/wx-3.2/wx/osx/statbox.h \
-  /usr/local/include/wx-3.2/wx/radiobox.h \
-  /usr/local/include/wx-3.2/wx/osx/radiobox.h \
-  /usr/local/include/wx-3.2/wx/radiobut.h \
-  /usr/local/include/wx-3.2/wx/osx/radiobut.h \
-  /usr/local/include/wx-3.2/wx/textctrl.h \
-  /usr/local/include/wx-3.2/wx/textentry.h \
-  /usr/local/include/wx-3.2/wx/osx/textentry.h \
-  /usr/local/include/wx-3.2/wx/ioswrap.h \
-  /usr/local/include/wx-3.2/wx/osx/textctrl.h \
-  /usr/local/include/wx-3.2/wx/slider.h \
-  /usr/local/include/wx-3.2/wx/osx/slider.h \
-  /usr/local/include/wx-3.2/wx/compositewin.h \
-  /usr/local/include/wx-3.2/wx/gauge.h \
-  /usr/local/include/wx-3.2/wx/osx/gauge.h \
-  /usr/local/include/wx-3.2/wx/scrolwin.h \
-  /usr/local/include/wx-3.2/wx/generic/scrolwin.h \
-  /usr/local/include/wx-3.2/wx/recguard.h \
-  /usr/local/include/wx-3.2/wx/dirdlg.h \
-  /usr/local/include/wx-3.2/wx/osx/dirdlg.h \
-  /usr/local/include/wx-3.2/wx/combobox.h \
-  /usr/local/include/wx-3.2/wx/osx/combobox.h \
-  /usr/local/include/wx-3.2/wx/layout.h \
-  /usr/local/include/wx-3.2/wx/sizer.h \
-  /usr/local/include/wx-3.2/wx/choicdlg.h \
-  /usr/local/include/wx-3.2/wx/generic/choicdgg.h \
-  /usr/local/include/wx-3.2/wx/textdlg.h \
-  /usr/local/include/wx-3.2/wx/generic/textdlgg.h \
-  /usr/local/include/wx-3.2/wx/valtext.h \
-  /usr/local/include/wx-3.2/wx/filedlg.h \
-  /usr/local/include/wx-3.2/wx/osx/filedlg.h \
-  /usr/local/include/wx-3.2/wx/mdi.h \
-  /usr/local/include/wx-3.2/wx/osx/mdi.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/app.h \
+  /opt/homebrew/include/wx-3.2/wx/stopwatch.h \
+  /opt/homebrew/include/wx-3.2/wx/timer.h \
+  /opt/homebrew/include/wx-3.2/wx/module.h \
+  /opt/homebrew/include/wx-3.2/wx/wxcrtvararg.h \
+  /opt/homebrew/include/wx-3.2/wx/window.h \
+  /opt/homebrew/include/wx-3.2/wx/font.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/font.h \
+  /opt/homebrew/include/wx-3.2/wx/region.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/region.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/carbon/region.h \
+  /opt/homebrew/include/wx-3.2/wx/validate.h \
+  /opt/homebrew/include/wx-3.2/wx/windowid.h \
+  /opt/homebrew/include/wx-3.2/wx/accel.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/accel.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/window.h \
+  /opt/homebrew/include/wx-3.2/wx/brush.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/brush.h \
+  /opt/homebrew/include/wx-3.2/wx/dc.h \
+  /opt/homebrew/include/wx-3.2/wx/pen.h \
+  /opt/homebrew/include/wx-3.2/wx/peninfobase.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/pen.h \
+  /opt/homebrew/include/wx-3.2/wx/affinematrix2d.h \
+  /opt/homebrew/include/wx-3.2/wx/affinematrix2dbase.h \
+  /opt/homebrew/include/wx-3.2/wx/geometry.h \
+  /opt/homebrew/include/wx-3.2/wx/containr.h \
+  /opt/homebrew/include/wx-3.2/wx/panel.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/panelg.h \
+  /opt/homebrew/include/wx-3.2/wx/toplevel.h \
+  /opt/homebrew/include/wx-3.2/wx/nonownedwnd.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/nonownedwnd.h \
+  /opt/homebrew/include/wx-3.2/wx/graphics.h \
+  /opt/homebrew/include/wx-3.2/wx/iconbndl.h \
+  /opt/homebrew/include/wx-3.2/wx/icon.h \
+  /opt/homebrew/include/wx-3.2/wx/iconloc.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/icon.h \
+  /opt/homebrew/include/wx-3.2/wx/weakref.h \
+  /opt/homebrew/include/wx-3.2/wx/meta/int2type.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/toplevel.h \
+  /opt/homebrew/include/wx-3.2/wx/frame.h \
+  /opt/homebrew/include/wx-3.2/wx/statusbr.h \
+  /opt/homebrew/include/wx-3.2/wx/control.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/control.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/statusbr.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/statusbr.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/frame.h \
+  /opt/homebrew/include/wx-3.2/wx/toolbar.h \
+  /opt/homebrew/include/wx-3.2/wx/tbarbase.h \
+  /opt/homebrew/include/wx-3.2/wx/bmpbndl.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/toolbar.h \
+  /opt/homebrew/include/wx-3.2/wx/dcclient.h \
+  /opt/homebrew/include/wx-3.2/wx/dcmemory.h \
+  /opt/homebrew/include/wx-3.2/wx/dcprint.h \
+  /opt/homebrew/include/wx-3.2/wx/dcscreen.h \
+  /opt/homebrew/include/wx-3.2/wx/button.h \
+  /opt/homebrew/include/wx-3.2/wx/anybutton.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/anybutton.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/button.h \
+  /opt/homebrew/include/wx-3.2/wx/menuitem.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/menuitem.h \
+  /opt/homebrew/include/wx-3.2/wx/menu.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/menu.h \
+  /opt/homebrew/include/wx-3.2/wx/dialog.h \
+  /opt/homebrew/include/wx-3.2/wx/sharedptr.h \
+  /opt/homebrew/include/wx-3.2/wx/atomic.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/dialog.h \
+  /opt/homebrew/include/wx-3.2/wx/settings.h \
+  /opt/homebrew/include/wx-3.2/wx/msgdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/stockitem.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/msgdlgg.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/msgdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/dataobj.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/dataform.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/core/cfstring.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/dataobj.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/dataobj2.h \
+  /opt/homebrew/include/wx-3.2/wx/ctrlsub.h \
+  /opt/homebrew/include/wx-3.2/wx/bmpbuttn.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/bmpbuttn.h \
+  /opt/homebrew/include/wx-3.2/wx/checkbox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/checkbox.h \
+  /opt/homebrew/include/wx-3.2/wx/checklst.h \
+  /opt/homebrew/include/wx-3.2/wx/listbox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/listbox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/checklst.h \
+  /opt/homebrew/include/wx-3.2/wx/choice.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/choice.h \
+  /opt/homebrew/include/wx-3.2/wx/scrolbar.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/scrolbar.h \
+  /opt/homebrew/include/wx-3.2/wx/stattext.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/stattext.h \
+  /opt/homebrew/include/wx-3.2/wx/statbmp.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/statbmp.h \
+  /opt/homebrew/include/wx-3.2/wx/statbox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/statbox.h \
+  /opt/homebrew/include/wx-3.2/wx/radiobox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/radiobox.h \
+  /opt/homebrew/include/wx-3.2/wx/radiobut.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/radiobut.h \
+  /opt/homebrew/include/wx-3.2/wx/textctrl.h \
+  /opt/homebrew/include/wx-3.2/wx/textentry.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/textentry.h \
+  /opt/homebrew/include/wx-3.2/wx/ioswrap.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/textctrl.h \
+  /opt/homebrew/include/wx-3.2/wx/slider.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/slider.h \
+  /opt/homebrew/include/wx-3.2/wx/compositewin.h \
+  /opt/homebrew/include/wx-3.2/wx/gauge.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/gauge.h \
+  /opt/homebrew/include/wx-3.2/wx/scrolwin.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/scrolwin.h \
+  /opt/homebrew/include/wx-3.2/wx/recguard.h \
+  /opt/homebrew/include/wx-3.2/wx/dirdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/dirdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/combobox.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/combobox.h \
+  /opt/homebrew/include/wx-3.2/wx/layout.h \
+  /opt/homebrew/include/wx-3.2/wx/sizer.h \
+  /opt/homebrew/include/wx-3.2/wx/choicdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/choicdgg.h \
+  /opt/homebrew/include/wx-3.2/wx/textdlg.h \
+  /opt/homebrew/include/wx-3.2/wx/generic/textdlgg.h \
+  /opt/homebrew/include/wx-3.2/wx/valtext.h \
+  /opt/homebrew/include/wx-3.2/wx/filedlg.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/filedlg.h \
+  /opt/homebrew/include/wx-3.2/wx/mdi.h \
+  /opt/homebrew/include/wx-3.2/wx/osx/mdi.h \
   /Users/haroldtien/code/ScreenExdender/src/../include/capturing.h \
   /Users/haroldtien/code/ScreenExdender/src/../include/Communication.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/socket.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/constrained_ctypes.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/machine/_param.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/i386/_param.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/arm/_param.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/net/net_kev.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_sa_family_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/sys/_types/_socklen_t.h \

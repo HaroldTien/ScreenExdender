@@ -45,10 +45,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/haroldtien/code/ScreenExdender
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacOS
+CMAKE_BINARY_DIR = /Users/haroldtien/code/ScreenExdender/buildMacos
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/ScreenExtender.dir/clean
 CMakeFiles/ScreenExtender.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=1,2,3,4,5 "Built target ScreenExtender"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ScreenExtender"
 .PHONY : CMakeFiles/ScreenExtender.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ScreenExtender.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ScreenExtender.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles 0
 .PHONY : CMakeFiles/ScreenExtender.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ ScreenExtender: CMakeFiles/ScreenExtender.dir/rule
 # codegen rule for target.
 CMakeFiles/ScreenExtender.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScreenExtender.dir/build.make CMakeFiles/ScreenExtender.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacOS/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target ScreenExtender"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/haroldtien/code/ScreenExdender/buildMacos/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Finished codegen for target ScreenExtender"
 .PHONY : CMakeFiles/ScreenExtender.dir/codegen
 
 # clean rule for target.

@@ -10,22 +10,20 @@ project(ScreenExtender)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-#set uWebSockets paths
-set(UWEBSOCKETS_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/lib/uWebSockets/src/")
-set(UWEBSOCKETS_LIBRARIES "${CMAKE_SOURCE_DIR}/lib/uWebSockets/uSockets/uSockets.a")
-message("CMAKE_SOURCE_DIR: ${CMAKE_SOURCE_DIR}/lib/uWebSockets/src/")
-
 
 # Enable Objective-C++
 enable_language(OBJCXX)
 
 # Find required packages
+set(wxWidgets_ROOT_DIR "/opt/homebrew/opt/wxwidgets")
+set(wxWidgets_CONFIG_EXECUTABLE "${wxWidgets_ROOT_DIR}/bin/wx-config")
 find_package(wxWidgets REQUIRED COMPONENTS core base)
-include(${wxWidgets_USE_FILE})
-
-#Find dependencies for uWebSockets
-find_package(OpenSSL REQUIRED)
-find_package(ZLIB REQUIRED)
+if(wxWidgets_FOUND)
+    message("wxWidgets found")
+    include(${wxWidgets_USE_FILE})  
+else()
+    message(FATAL_ERROR "wxWidgets not found")
+endif()
 
 
 # Set output directories
@@ -33,31 +31,28 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/output)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${CMAKE_SOURCE_DIR}/output)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_SOURCE_DIR}/output)
 
+
 # Add source files
 set(SOURCE_FILES
     src/main.cpp
     lib/ConnectionCodeGeneration.cpp
     src/WallpaperCapture.mm
     lib/Communication.cpp
+    lib/WebSockets/src/WebSocketServer.cpp
+    lib/WebSockets/src/SHA1.cpp
+    lib/WebSockets/src/Base64.cpp
 )
 
-
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
-
 
 # Include directories
 target_include_directories(${PROJECT_NAME} PRIVATE 
     include
-    ${UWEBSOCKETS_INCLUDE_DIR}
+    ${wxWidgets_INCLUDE_DIRS}
 )
-
 
 target_link_libraries(${PROJECT_NAME} 
     ${wxWidgets_LIBRARIES}
-    ${UWEBSOCKETS_LIBRARIES}  # Add uWebSockets libraries
-    OpenSSL::SSL
-    OpenSSL::Crypto
-    ZLIB::ZLIB
     "-framework Cocoa"  # Add Cocoa framework for macOS
 )
 

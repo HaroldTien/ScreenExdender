@@ -1,8 +1,10 @@
-
 #include <string>
 #include <vector>
 #include <cstdint>
+#include <iostream>
+#include "../include/Base64.h"
 
+namespace WebSocket {
 
 std::string base64_encode(const std::vector<uint8_t> &data) {
     // Base64 character set.
@@ -35,3 +37,6 @@ std::string base64_encode(const std::vector<uint8_t> &data) {
     
     return encoded;      // Return the Base64 encoded string.
 }
+
+} // namespace WebSocket
+
